@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header{
+width: 99%;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: center;
+margin: auto;
+}
+
+.papa1{
+width: 98%;
+height: 140px;
+margin: auto;
+margin-top: 20px;
+
+}
+
+.primerTexto{
+color: Black;
+font-size: 90px;
+padding-top: 20px;
+font-family: 'Tajawal', sans-serif;
+text-align: center;
+}
+
+.papa2{
+width: 98%;
+height: auto; 
+margin: auto;
+border-radius: 4px;
+margin-top: 10px;
+}
+
+.Linea{
+background-color: #53777d;
+width: 50%;
+height: 1px;
+margin: auto;
+margin-top: 10px;
+}
+
+.CuadroBotonesyBucador{
+width: auto;
+height: 100%;
+display: flex;
+flex-direction: row;
+align-content: space-between;
+margin: auto;
+margin-top: 10px;
+}
+
+.Botones{
+width: auto;
+height: 100%;
+display: flex;
+flex-direction: row;
+align-content: space-between;
+margin: auto;
+}
+
+.hijo1{
+width: 150px;
+height: 95%;
+margin-left: 25px;
+margin-top: 1px;
+}
+
+.TextoBotones{
+color:black;
+font-size: 16px;
+font-family: 'Karla', sans-serif;
+padding-left: 13px;
+padding-top: 5;
+}
+
+.TextoBotones:hover{
+color: #53777d;
+}
+
+
+@media only screen and (max-width:767px){
+  *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  }
+  
+  header{
+  width: 98%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin: auto;
+  }
+  
+  .papa1{
+  width: 98%;
+  height: 70px;
+  margin: auto;
+  margin-top: 20px;
+  
+  }
+  
+  .primerTexto{
+  color: Black;
+  font-size: 50px;
+  padding-top: 10px;
+  font-family: 'Tajawal', sans-serif;
+  text-align: center;
+  }
+  
+  .papa2{
+  width: 98%;
+  height: 50px; 
+  margin: auto;
+  border-radius: 4px;
+  margin-top: 10px;
+  }
+  
+  .Linea{
+  background-color: #53777d;
+  width: 50%;
+  height: 1px;
+  margin: auto;
+  margin-top: -10px;
+  }
+  
+  .CuadroBotonesyBucador{
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: auto;
+  margin-top: 10px;
+  }
+  
+  .Botones{
+  width: 410px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin: auto;
+  }
+  
+  .hijo1{
+  width: 100px;
+  height: 95%;
+  margin-left: 25px;
+  margin-top: 1px;
+  }
+  
+  .TextoBotones{
+  color:black;
+  font-size: 13px;
+  font-family: 'Karla', sans-serif;
+  padding-top: 5;
+  }
+  
+  .TextoBotones:hover{
+  color: #53777d;
+  }
+}

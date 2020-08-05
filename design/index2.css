@@ -1,0 +1,388 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.section2{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+.cuadroiq{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.iq{
+    font-family: 'Tajawal', sans-serif;
+    color:  #53777d;
+    font-size: 30px;
+
+}
+.Cuadrobarras{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+.Office{
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.Java{
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Web{
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.Photoshop{
+    width: 98%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.TextoIQ{
+    width:30%;
+    height: 100%;
+    text-align: center ;
+
+}
+
+.TextoIQTexto{
+    color: black;
+    font-size: 21px;
+    padding-top: 40px;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.BarraIQOffice{
+
+    width:100%;
+    height: auto;
+    background-color: lightgray;
+    margin:auto;
+    border-radius: 10px;
+}
+
+/***Office**************************/
+.porciento{
+    width: 92%;
+    height: 50px;
+    background-color: #84a6b2;
+    border-radius: 10px;
+}
+.porciento:hover{
+    background-color:#377DA0;
+    cursor: pointer;
+    color: black;
+    transition: all .4s ease;
+    -moz-transform: scale(1.1) translate(0px, 1px);
+    -webkit-transform: scale(1.1) translate(0px, 1px);
+    -o-transform: scale(1.1) translate(0px, 1px);
+    -ms-transform: scale(1.1) translate(0px, 1px);
+    transform: scale(1.1) translate(0px, 1px);
+}
+
+/***Java**************************/
+.porcientoJava{
+    width: 63%;
+    height: 50px;
+    background-color: #548563;
+    border-radius: 10px;
+}
+.porcientoJava:hover{
+    background-color:#218842;
+    cursor: pointer;
+    transition: all .4s ease;
+    -moz-transform: scale(1.1) translate(0px, 1px);
+    -webkit-transform: scale(1.1) translate(0px, 1px);
+    -o-transform: scale(1.1) translate(0px, 1px);
+    -ms-transform: scale(1.1) translate(0px, 1px);
+    transform: scale(1.1) translate(0px, 1px);
+}
+
+/***Office*************************/
+.porcientoWeb{
+    width: 65%;
+    height: 50px;
+    background-color:	#9bdcdd;
+    border-radius: 10px;
+}
+.porcientoWeb:hover{
+    background-color:#4BB0AD;
+    cursor: pointer;
+    transition: all .4s ease;
+    -moz-transform: scale(1.1) translate(0px, 1px);
+    -webkit-transform: scale(1.1) translate(0px, 1px);
+    -o-transform: scale(1.1) translate(0px, 1px);
+    -ms-transform: scale(1.1) translate(0px, 1px);
+    transform: scale(1.1) translate(0px, 1px);
+}
+
+/***Office**************************/
+.porcientoPhotoshop{
+    width: 90%;
+    height: 50px;
+    background-color: #dc4745;
+    border-radius: 10px;
+}
+.porcientoPhotoshop:hover{
+    background-color:#903131;
+    cursor: pointer;
+    transition: all .4s ease;
+    -moz-transform: scale(1.1) translate(0px, 1px);
+    -webkit-transform: scale(1.1) translate(0px, 1px);
+    -o-transform: scale(1.1) translate(0px, 1px);
+    -ms-transform: scale(1.1) translate(0px, 1px);
+    transform: scale(1.1) translate(0px, 1px);
+
+}
+
+.porcientonumeros{
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+}
+
+.porcientonumeros:hover{
+    color: black;
+}
+
+.textoFrase{
+    
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width:767px){
+
+  .section2{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+        border-radius: 5px;
+  margin-top: 40px;
+
+  }
+  .cuadroiq{
+  width: 100%;
+  height: auto;
+  text-align: center;
+      margin: auto;
+      border-radius: 5px;
+  }
+
+
+  .iq{
+    font-family: 'Tajawal', sans-serif;
+        color:  #53777d;
+      font-size: 25px;
+
+  }
+  .Cuadrobarras{
+  width: 100%;
+  height: auto;
+      display: flex;
+      flex-direction: column;
+  border-radius: 5px;
+
+  }
+  .Office{
+      width: 98%;
+      height: 100px;
+
+      margin: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+  }
+
+  .Java{
+      width: 98%;
+      height: 100px;
+
+      margin: auto;
+      margin-top: 10px;
+    display: flex;
+      flex-direction: row;
+  }
+
+  .Web{
+      width: 98%;
+      height: 100px;
+
+      margin: auto;
+      margin-top: 10px;
+    display: flex;
+      flex-direction: row;
+  }
+  .Photoshop{
+         width: 98%;
+      height: 100px;
+
+      margin: auto;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .TextoIQ{
+      width:30%;
+      height: 100%;
+
+   text-align: center ;
+
+  }
+
+  .TextoIQTexto{
+      color: black;
+      font-size: 16px;
+      padding-top: 40px;
+      font-family: 'Tajawal', sans-serif;
+
+  }
+
+  .BarraIQOffice{
+
+      width:100%;
+  height: auto;
+  background-color: darkgray;
+      margin:auto;
+  border-radius: 10px;
+  }
+
+  /***Office**************************/
+  .porciento{
+   width: 92%;
+      height: 50px;
+      background-color: #84a6b2;
+       border-radius: 10px;
+  }
+  .porciento:hover{
+      background-color:#377DA0;
+  cursor: pointer;
+  color: black;
+      transition: all .4s ease;
+      -moz-transform: scale(1.1) translate(0px, 1px);
+      -webkit-transform: scale(1.1) translate(0px, 1px);
+      -o-transform: scale(1.1) translate(0px, 1px);
+      -ms-transform: scale(1.1) translate(0px, 1px);
+      transform: scale(1.1) translate(0px, 1px);
+
+
+  }
+
+  /***Java**************************/
+  .porcientoJava{
+   width: 63%;
+      height: 50px;
+      background-color: #548563;
+       border-radius: 10px;
+  }
+  .porcientoJava:hover{
+      background-color:#218842;
+  cursor: pointer;
+
+      transition: all .4s ease;
+      -moz-transform: scale(1.1) translate(0px, 1px);
+      -webkit-transform: scale(1.1) translate(0px, 1px);
+      -o-transform: scale(1.1) translate(0px, 1px);
+      -ms-transform: scale(1.1) translate(0px, 1px);
+      transform: scale(1.1) translate(0px, 1px);
+
+  }
+
+  /***Office*************************/
+  .porcientoWeb{
+   width: 65%;
+      height: 50px;
+      background-color:	#9bdcdd;
+       border-radius: 10px;
+  }
+  .porcientoWeb:hover{
+      background-color:#4BB0AD;
+  cursor: pointer;
+
+      transition: all .4s ease;
+      -moz-transform: scale(1.1) translate(0px, 1px);
+      -webkit-transform: scale(1.1) translate(0px, 1px);
+      -o-transform: scale(1.1) translate(0px, 1px);
+      -ms-transform: scale(1.1) translate(0px, 1px);
+      transform: scale(1.1) translate(0px, 1px);
+
+  }
+
+  /***Office**************************/
+  .porcientoPhotoshop{
+   width: 90%;
+      height: 50px;
+      background-color: #dc4745;
+       border-radius: 10px;
+  }
+  .porcientoPhotoshop:hover{
+      background-color:#903131;
+  cursor: pointer;
+
+      transition: all .4s ease;
+      -moz-transform: scale(1.1) translate(0px, 1px);
+      -webkit-transform: scale(1.1) translate(0px, 1px);
+      -o-transform: scale(1.1) translate(0px, 1px);
+      -ms-transform: scale(1.1) translate(0px, 1px);
+      transform: scale(1.1) translate(0px, 1px);
+
+  }
+
+  .porcientonumeros{
+
+        color: black;
+        font-size: 20px;
+        padding-top: 10px;
+        font-family: 'Tajawal', sans-serif;
+  text-align: right;
+  }
+
+  .porcientonumeros:hover{
+  color: black;
+
+  }
+}

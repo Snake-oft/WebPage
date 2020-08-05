@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.HijoArticle{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadroGeneral{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+.lineatitulos{
+    width: 20%;
+    height: 1px;
+    background-color: #53777d;
+    margin: auto;
+}
+
+.projectosEnvio{
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.Cuadro{
+    width: 43%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.TITULO{
+    font-family: 'Tajawal', sans-serif;
+    color: #53777d;
+    font-size: 20px;
+    padding-top: 18%;
+    text-align: center;
+}
+
+.TextoCuadrosNietos{
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.ImgJava{
+    width: 350px;
+    height:350px;
+    display: flex;/*dandole el flex y el margin auto hace que se centre*/
+    border-radius:3px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.TextoEnvio{
+    font-family: 'Tajawal', sans-serif;
+    color: #53777d;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.ImgWEb{
+    width: 350px;
+    height: 350px;
+    border-radius: 3px;
+    display: flex;
+    margin: auto; 
+    margin-top: 10px;
+}
+
+.ImgAndroid{
+    width: 350px;
+    margin: auto;
+    height: 350px;
+    display: flex;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width:767px){
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 2px;
+}
+
+.HijoArticle{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadroGeneral{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+
+.lineatitulos{
+    width: 20%;
+    height: 1px;
+    background-color: #53777d;
+    margin: auto;
+}
+
+.projectosEnvio{
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.Cuadro{
+    width: 43%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.TITULO{
+    font-family: 'Tajawal', sans-serif;
+    color: #53777d;
+    font-size: 20px;
+    padding-top: 18%;
+    text-align: center;
+}
+
+.TextoCuadrosNietos{
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.ImgJava{
+    width: 275px;
+    height:275px;
+    display: flex;/*dandole el flex y el margin auto hace que se centre*/
+    margin: auto;
+ 
+}
+
+.TextoEnvio{
+    font-family: 'Tajawal', sans-serif;
+    color: #53777d;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.ImgWEb{
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    display: flex;
+    margin: auto; 
+}
+
+.ImgAndroid{
+    width: 270px;
+    margin: auto;
+    height: 270px;
+    display: flex;
+}
+
+}
