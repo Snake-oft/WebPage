@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-    <html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
-           
-<link rel="stylesheet" href="design/designLog/header.css">
-<link rel="stylesheet" href="design/designLog/css.css">
-   
-<meta charset="utf-8">
-<title>Formulario</title>
+<title> LogIn</title>
+    <link rel="stylesheet" href="design/designLog/css.css">
+    </head>
 
-       
-    <head> 
-       <style>
-    body{
-        background-color: #fbf9f4;
-    }
-    
-    </style>
-       </head>
-        <body>
+<body>
+<!---BOTON DE REGRESAR--------------------------------------------------------->
+  <a class="Back" href="proyectos.html"><div class="bck"> <img src="img/bck.png"></div></a>
+<!---INICIO DE FORM------------------------------------------------------------>
+    <form action="" class="formulario">
+        <img class="inicioimg" src="img/sus.png">
+<!---TITULO PRINCIPAL---------------------------------------------------------->
+              <label class="In" id="Inicio">Log In</label>
+                <label for="" id="uno"></label>
+                  <input   id="user" placeholder="  E-mail">
 
+                 <label for="" id="dos"></label>
+                  <input id="contra" placeholder="  Password">
 
-           
-<header>
-   
-    <a href="proyectos.html">
-      <div class="BotonRegreso">⬅️ </div>
-    </a>
-</header>
-<!---Login------------------------------------------------------------>
-            
-		  <form class="formulario">
-		  <img class="iconoLogin" src="img/Snake.png">
+                <input type="submit" id="enviar" value="Iniciar Sesion" >
+            <label  id="cuenta"> <a href="index.html" class="a">Sign Up</a> </label>
 
-		  <label class="Log">Log In</label>
-		  <input id="correo" class="entradaDeTexto" placeholder="Email">
-                <br>
-		  <input type="password" id="password" class="entradaDeTexto" placeholder="Password">    
-                <br>
-		        
-		    
-          <button id="iniciar" class="botonIniciar">Log In</button> 
-                       
-           
-          <a href="#" class="enlace">  <label class="textrecordar">Don´t have an account yet?</label></a>
-              <p id="CorreoInvalido" class="mensaje1"></p>
-          </form>
-
-            
-<script src="js/formulario.js"></script>
-            
-        </body>
+        </form>
+      <script src="js/formulario.js"></script>
+  </body>
 </html>
